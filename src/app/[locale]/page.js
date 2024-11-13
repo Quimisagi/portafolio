@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "../page.module.css";
 import Main from "../../../components/Main.js";
+import LanguageSelector from "../../../components/LanguageSelector.js";
 
 import {useTranslations} from 'next-intl';
 import {Link} from '@/i18n/routing';
@@ -10,7 +11,7 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <h1>{t('title')}</h1>
+        <LanguageSelector />
         <Main />
       </main >
       <footer className={styles.footer}>

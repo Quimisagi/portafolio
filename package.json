@@ -13,5 +13,9 @@
     "next-intl": "^3.24.0",
     "react": "^19.0.0-rc-02c0e824-20241028",
     "react-dom": "^19.0.0-rc-02c0e824-20241028"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "babel-plugin-inline-react-svg": "^2.0.2"
   }
 }
